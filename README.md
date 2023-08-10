@@ -36,7 +36,7 @@ Getting Started
 7. Configuration and Settings
    Add the following to myproject/settings.py:
       INSTALLED_APPS = [
-    # ... (other apps)
+    
     'myapp',
     'rest_framework',
     'rest_framework.authtoken',
