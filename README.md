@@ -32,7 +32,7 @@ Getting Started
       django-admin startproject myproject
       cd myproject
       python manage.py startapp myapp
-7. Configuration and Settings
+6. Configuration and Settings
    Add the following to myproject/settings.py:
       INSTALLED_APPS = [
     
@@ -48,15 +48,15 @@ REST_FRAMEWORK = {
    Define your custom model in myapp/models.py.
        python manage.py makemigrations
        python manage.py migrate
-9. Serializers and Views
+8. Serializers and Views
    Create serializers and views for your API endpoints in myapp/serializers.py and myapp/views.py.
-10. URL Routing
+9. URL Routing
   Connect your app's URLs by adding to myproject/urls.py:
        urlpatterns = [path('', include('myapp.urls')),]
 
   connect api endpoints to myapp/urls.py
 
-11. Run the Development Server
+10. Run the Development Server
        python manage.py runserver
 
 
