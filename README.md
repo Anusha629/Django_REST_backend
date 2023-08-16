@@ -1,13 +1,12 @@
 # API Documentation using Django_REST Framework
 
-      FRAMEWORK CHOICE
+FRAMEWORK CHOICE
      
 Chosen the Django REST framework as the foundation for API project.
 Django REST framework is a powerful toolkit for building Web APIs based on the Django framework. 
 It provides a flexible, customizable, and efficient way to create APIs, making development faster and more manageable.
 
-
-      DATABASE SCHEME
+DATABASE SCHEME
 The schema includes the following fields:
 
 Username: The unique identifier for a user.
@@ -16,7 +15,7 @@ Password: The user's password.
 Age: The age of the user.
 Gender: The gender of the user.
 
-      INSTRUCTIONS TO SETUP & RUN THE CODE
+INSTRUCTIONS TO SETUP & RUN THE CODE
 
 Follow these steps to run  Django REST API project on your local machine
               
